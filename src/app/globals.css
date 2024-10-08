@@ -1,0 +1,36 @@
+@layer reset, base, tokens, recipes, utilities;
+
+/* COMMON */
+
+:root {
+    --site-bg-color: #F7F8FC;
+    --site-black: #333;
+    --site-white: #fff;
+    --site-accent-color-1: #404C96;
+    --site-accent-color-2: #DADCF1;
+    --site-accent-color-3: #4D5CB1;
+    --site-accent-color-4: #737FC3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--site-bg-color) !important;
+    margin: 0;
+    -ms-overflow-style: none;
+}
+
+/* PC */
+
+/* SP */
+
+@media (max-width: 768px) {
+
+}
